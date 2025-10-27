@@ -1,0 +1,5 @@
+{
+  "name": "Hack bro",
+  "description": "An AI-powered chatbot with deep knowledge of OWASP Top 10 and CVEs to assist bug bounty researchers, from beginners to experts, in identifying and understanding security vulnerabilities.",
+  "requestFramePermissions": []
+}

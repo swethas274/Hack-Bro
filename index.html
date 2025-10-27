@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Sentinel AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-bg': '#121826',
+              'brand-surface': '#1a2233',
+              'brand-input': '#232d45',
+              'brand-primary': '#00a99d',
+              'brand-primary-hover': '#00c2b2',
+              'brand-text-primary': '#f0f4f8',
+              'brand-text-secondary': '#a9b4c7',
+            },
+            animation: {
+              'dot-pulse': 'dot-pulse 1.4s infinite ease-in-out both',
+            },
+            keyframes: {
+              'dot-pulse': {
+                '0%, 80%, 100%': { transform: 'scale(0)', opacity: 0 },
+                '40%': { transform: 'scale(1.0)', opacity: 1 },
+              },
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-bg">
+    <div id="root"></div>
+  </body>
+</html>
